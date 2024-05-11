@@ -1,0 +1,31 @@
+.main-container{
+max-width: 1200px;
+display: flex;
+height: 100vh;
+margin: 0 auto;
+align-items: center;
+justify-content: center;
+margin-top:70px ;
+}
+.main-container h1 {
+    font-family: Poppins;
+    font-size: 75px;
+    white-space: nowrap;
+}
+.start-btn {    
+    padding: 10px 18px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    min-width: 220px;
+    border: none;
+    font-size: 16px;
+    border: 1px solid transparent;
+    margin-left: 50%;
+}
+.start-btn:hover {
+    background-color: #605f5f;
+    cursor: pointer;
+    display:inline-block;
+    transition: 0.4s background ease-in;
+}
